@@ -1,1 +1,1 @@
-# ingest into tables
+print("HELLO FROM JOB")
