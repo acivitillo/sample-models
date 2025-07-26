@@ -1,3 +1,2 @@
-
-def test():
-  123
+select * from Employee
+  limit 1;
