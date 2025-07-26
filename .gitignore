@@ -1,1 +1,2 @@
-#github dlt connector
+select * from Employee
+  limit 10;
