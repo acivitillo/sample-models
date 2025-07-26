@@ -1,3 +1,12 @@
+import os
+
+#folder_path = os.environ.get("folder_path")
+folder_path = "/app/output"
+
 
 def test():
-  123
+  with open(os.path.join(folder_path, "out.txt"), "w") as f:
+    print(f"DEBUG: Writing to {folder_path}")
+    f.write("holdddddddddd!!")
+    
+test()
