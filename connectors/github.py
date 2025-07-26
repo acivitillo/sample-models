@@ -1,2 +1,1 @@
-select * from Employee
-  limit 10;
+# some python here

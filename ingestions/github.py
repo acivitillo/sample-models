@@ -1,3 +1,2 @@
-
-def test():
-  print(1)
+select * from Employee
+  limit 10;
