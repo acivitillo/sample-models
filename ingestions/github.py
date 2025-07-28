@@ -1,14 +1,9 @@
-# Define sales and cost of goods sold
-sales_revenue = 1000  # Example sales revenue
-cogs = 600            # Example cost of goods sold
+import math
 
-# Calculate margin and profit
-margin = sales_revenue - cogs
-profit = margin  # Assuming no additional expenses for simplicity
+def calculate_moon_circumference():
+    radius_moon = 1737.4  # in kilometers
+    circumference = 2 * math.pi * radius_moon
+    print("The radius of the moon is:", radius_moon, "km")
+    print("The circumference of the moon is:", circumference, "km")
 
-# Print the results
-print(f"Sales Revenue: ${sales_revenue}")
-print(f"Cost of Goods Sold: ${cogs}")
-print(f"Margin: ${margin}")
-print(f"Profit: ${profit}")
-#test
+calculate_moon_circumference()
